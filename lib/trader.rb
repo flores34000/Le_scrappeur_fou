@@ -17,6 +17,6 @@ name_price = Hash[criptomonai_name.zip(criptomonai_price)]
 # puts criptomonai_name
 # puts criptomonai_price
 
- name_price.each do |index| p index
+ name_price.each do |index| p [index].to_h
  end
 
